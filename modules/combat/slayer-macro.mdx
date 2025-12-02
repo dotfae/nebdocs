@@ -6,15 +6,18 @@ description: "Automatically does slayer quests for you. Works with Zombie, Spide
 <Accordion title="General" icon="option" iconType="duotone">
   - **Slayer Macro Keybind**: Keybind to start and stop the macro. It automatically detects your current slayer quest on the scoreboard.
   - **Kill Other Players Bosses**: Attack and kill slayer bosses spawned by other players for extra combat XP and drops.
-  - **Auto Daedalus Axe Swap**: Automatically switches to Daedalus Axe when killing mobs for increased Magic Find.
+  - **Magic Find weapon swap**: Automatically switches to Daedalus Axe when killing mobs for increased Magic Find.
   - **Daedalus Axe Swap at % HP**: Bosses health percentage threshold (1-50%) to switch to Daedalus Axe.
+  - **Magic Find weapon slot**: Select slot with your Magic Find Weapon
   - **Auto Slayer**: Enable this if you have the "Auto-Slayer" feature unlocked from Maddox. The macro will automatically start the next quest.
+  - **Debug Mode**: Shows debug information in chat (useful for bug reports).
 </Accordion>
 
 <Accordion title="Zombie Slayer" icon="biohazard" iconType="duotone">
   - **Dodge TNT (T5)**: Automatically dodges TNT explosions during Tier 5 boss fights.
   - **TNT Dodge Ticks**: How many ticks to wait before dodging TNT. Higher value means waiting longer.
-  - **Auto HOTS**: Automatically uses Heart of the Sea throw ability. (Currently unavailable)
+  - **Auto HOTS**: Automatically uses halberd of the Shredded throw ability. (Currently unavailable)
+  - **HOTS right click delay**: Changes delay between using HOTS ability
   - **Crypts Warp Unlocked**: Uses `/warp crypt` to travel faster if unlocked.
 </Accordion>
 
@@ -24,6 +27,12 @@ description: "Automatically does slayer quests for you. Works with Zombie, Spide
 </Accordion>
 
 <Accordion title="Spider Slayer" icon="spider" iconType="duotone">
+  - **Spider Slayer Location**:
+
+    <Expandable title="locations">
+      - **Arachne's Sanctuary**
+      - **Burning Desert**
+    </Expandable>
   - **Kill Bats**: Toggles whether to kill bats spawned by the boss.
   - **Kill Magma Cubes Before Shooting Eggs**: Prioritizes killing nearby magma cubes before shooting eggs on the Crimson Isle.
   - **Kill Spiders Before Shooting Eggs**: Prioritizes killing nearby spiders before shooting eggs in the Spider's Den.
@@ -32,6 +41,7 @@ description: "Automatically does slayer quests for you. Works with Zombie, Spide
 
 <Accordion title="Enderman Slayer" icon="eye" iconType="duotone">
   - **Enderman Slayer Location**: Selects the area to farm Zealots.
+
   <Expandable title="Location Options">
     - **Main Area**
     - **Dragon's Nest**
@@ -40,6 +50,7 @@ description: "Automatically does slayer quests for you. Works with Zombie, Spide
   </Expandable>
   - **Use SoulCry When Spawning**: Activates SoulCry ability when spawning the Voidgloom Seraph boss.
   - **Use Summons for Hits Phase**: Automatically deploys summons during the hits phase of the Voidgloom Seraph fight.
+
   <Info>
     **Note:** You need either a **Summoning Ring**, **Necromancer Sword**, or **Reaper Scythe** in your hotbar to spawn summons.
   </Info>
@@ -52,6 +63,7 @@ description: "Automatically does slayer quests for you. Works with Zombie, Spide
 
 <Accordion title="Weapon" icon="swords" iconType="duotone">
   - **Spawn Weapon Type**: Selects the weapon type for killing mobs to spawn the boss.
+
   <Expandable title="Weapon Types">
     - **Melee**: Uses sword attacks.
     - **Ability**: Uses a weapon's right-click ability.
@@ -60,6 +72,7 @@ description: "Automatically does slayer quests for you. Works with Zombie, Spide
   </Expandable>
   - **Spawn Weapon Slot**: Configurable weapon slot (1-8) for spawning the boss.
   - **Boss Weapon Type**: Selects the weapon type for killing the slayer boss.
+
   <Expandable title="Weapon Types">
     - **Melee**: Uses sword attacks.
     - **Ability**: Uses a weapon's right-click ability.

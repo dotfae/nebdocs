@@ -11,7 +11,7 @@ description: "Auto routes for dungeons "
 
     <Expandable title="Types">
       **Normal**: changes player view\
-      **Fake**: doesnt change player view 
+      **Fake**: doesnt change player view
     </Expandable>
   - **Rotation Speed**: changes rotations speed for nodes
   - **Fast TP**: zero ping etherwarp (currently unavailable because of anti-cheat update)
@@ -33,23 +33,23 @@ description: "Auto routes for dungeons "
 
 <Accordion title="Usage Notes" icon="sparkles">
   <Expandable title="Commands">
-    - **/n routes help**: prints a help message
-    - **/n routes load**: reloads current routes from file
-    - **/n routes edit**: toggles edit mode that allowing you to place nodes
-    - **/n routes edit placewarp**: places Etherwarp node
+    - **/n routes help**: Prints a help message
+    - **/n routes load**: Reloads current routes from file
+    - **/n routes edit**: Toggles edit mode which prevents nodes from being activated and allows nodes to be placed using the right click
+    - **/n routes edit placewarp**: Places Etherwarp node
 
       <Expandable title="Content">
         - /n routes edit placewarp [additional delay] [waitforsecret] [manual mode]
         - <u>Example</u>: /n routes edit placewarp 0 true false
       </Expandable>
-    - **/n routes edit clear [radius]**: clears <u>EVERY</u> node in the selected radius, /n routes edit clear in the selected radius clears <u>EVERY</u> node in the room
+    - **/n routes edit clear [radius]**: Clears <u>EVERY</u> node in the selected radius, "/n routes edit clear" clears <u>EVERY</u> node in the current room
   </Expandable>
   <Expandable title="Nodes list">
-    - **Etherwarp:** places an Etherwarp node that automatically etherwarps you to the selected block using an algorithm or hardcoded yaw & pitch values
-    - **Walk**: places a Walk node that automatically walks in the selected direction
-    - **Pearl**: places a Pearl node that automatically throws ender pearl 
-    - **Rotate**: places a Rotate node that automatically rotates u
-    - **Chat**: places a Chat node that automatically sends message or command in chat
+    - **Etherwarp:** Places an Etherwarp node that automatically etherwarps you to the selected block using an algorithm or hardcoded yaw & pitch values
+    - **Walk**: Places a Walk node that automatically walks in the selected direction
+    - **Pearl**: Places a Pearl node that automatically throws ender pearl
+    - **Rotate**: Places a Rotate node that automatically rotates u
+    - **Chat**: Places a Chat node that automatically sends message or command in chat
 
       <Expandable title="Explained">
         - **vclip**: /n dungeons vclip -\*
@@ -57,8 +57,8 @@ description: "Auto routes for dungeons "
 
         To switch from VClip to PearlClip, you need to enable VClip Auto Pearl in DungeonUtils module
       </Expandable>
-    - **Press Key**: places a Press Key node that allows you to use ingame keybinds for the routes
-    - **Use Item**: places a Use Item node that automatically uses selected item
+    - **Press Key**: Places a Press Key node that allows you to use ingame keybinds for the routes
+    - **Use Item**: Places a Use Item node that automatically uses selected item
 
     <Expandable title="Explained">
       To set rotation for <u>Pearl </u>& <u>Use Item</u> nodes, you need to <u>place a Rotate node</u> that executes first with “Wait for Rotation”
