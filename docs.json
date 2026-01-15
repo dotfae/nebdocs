@@ -9,6 +9,20 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Website",
+          "icon": "globe",
+          "href": "https://nebulaclient.net/"
+        },
+        {
+          "anchor": "Discord",
+          "icon": "discord",
+          "href": "https://nebulaclient.net/discord"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Documentation",
@@ -23,7 +37,6 @@
             "group": "General",
             "icon": "slider",
             "pages": [
-              "modules/general/bazaar-unlocker",
               "modules/general/carnival",
               "modules/general/chocolate-factory",
               "modules/general/dojo",
@@ -47,7 +60,6 @@
             "pages": [
               "modules/skills/alchemy",
               "modules/skills/fishing",
-              "modules/skills/foraging",
               "modules/skills/rift-qol"
             ]
           },
@@ -60,8 +72,6 @@
               "modules/mining/gemstone-miner",
               "modules/mining/mining-qol",
               "modules/mining/mithril-miner",
-              "modules/mining/powder-macro",
-              "modules/mining/scatha",
               "modules/mining/tunnels-miner"
             ]
           },
@@ -88,7 +98,6 @@
             "group": "Misc",
             "icon": "filter-list",
             "pages": [
-              "modules/misc/auto-builder",
               "modules/misc/failsafe-reactions",
               "modules/misc/failsafes",
               "modules/misc/kuudra-utils",
@@ -97,24 +106,41 @@
               "modules/misc/pathfinding",
               "modules/misc/scheduler"
             ]
+          },
+          {
+            "group": "Beta Modules",
+            "hidden": true,
+            "pages": [
+              {
+                "group": "Skills",
+                "pages": [
+                  "modules/skills/foraging"
+                ]
+              },
+              {
+                "group": "Mining",
+                "pages": [
+                  "modules/mining/scatha",
+                  "modules/mining/powder-macro"
+                ]
+              },
+              {
+                "group": "General",
+                "pages": [
+                  "modules/general/bazaar-unlocker"
+                ]
+              },
+              {
+                "group": "Misc",
+                "pages": [
+                  "modules/misc/auto-builder"
+                ]
+              }
+            ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Website",
-          "href": "https://nebulaclient.net/",
-          "icon": "globe"
-        },
-        {
-          "anchor": "Discord",
-          "href": "https://nebulaclient.net/discord",
-          "icon": "discord"
-        }
-      ]
-    }
+    ]
   },
   "customCss": [
     "css/custom.css"
