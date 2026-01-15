@@ -13,23 +13,23 @@ description: "Features for dungeons"
   - **Gyro Radius Only in Thirdperson**: Shows the radius for the Gyrokinetic Wand only in third person.
   - **Blessings Display HUD**: Shows current blessings.
   - **Auto Send Message on Teammate Death**: Sends a message when a teammate dies.
-  - **Message to send**: Custom message for Auto Send Message on Teammate Death.
+  - **Message to send**: Custom message for "Auto Send Message on Teammate Death".
   - **Mimic Message**: Sends a message on Mimic death.
   - **Mimic Message Text**: Custom message for Mimic Message.
   - **No DT**: Automatically starts a new dungeon run.
   - **Auto GFS**: Automatically gets ender pearls from sacks.
   - **Block Interaction**: Allows you to throw pearls even if interacting with a block.
-  - **Vertical Jerry**: Changes Jerry Gun velocity direction.
-  - **Bonzo Movement Helper**: Improves movement with Bonzo Staff.
+  - **Vertical Jerry**: Changes Jerry Gun velocity direction. (Currently disabled due to new AC update)
+  - **Bonzo Movement Helper**: Improves movement with Bonzo Staff. (Currently disabled due to new AC update)
   - **Tank/Healer Ultimate Notification**: Sends a message when you need to use the ultimate ability.
   - **Tank/Healer Auto Use Ultimate**: Automatically uses the ultimate ability on Tank/Healer at certain moments.
   - **No Death Animation**: Removes death animation.
-  - **Auto Stair Align Keybind**: Keybind to automatically align you.
-  - **Auto Stair Align**: Automatically aligns you without pressing a keybind.
-  - **Doorless**: Allows you to skip through a door.
-  - **Doorless Motion**: Pushes you forward after using Doorless.
+  - **Auto Stair Align Keybind**: Keybind to automatically align you. (Currently disabled due to new AC update)
+  - **Auto Stair Align**: Automatically aligns you without pressing a keybind. (Currently disabled due to new AC update)
+  - **Doorless**: Allows you to skip through a wither / blood door using ender pearls. (Currently disabled due to new AC update)
+  - **Doorless Motion**: Pushes you forward after using Doorless. (Currently disabled due to new AC update)
   - **Auto Left Click Superboom Swap**: Automatically presses left click after swapping on Superboom/Infinityboom TNT.
-  - **Auto Mask Swap**: Swaps masks (Bonzo, Spirit).
+  - **Auto Mask Swap**: Swaps masks (Bonzo, Spirit). (Currently disabled due to new AC update)
 </Accordion>
 
 <Accordion title="Visuals" icon="sparkles">
@@ -58,9 +58,7 @@ description: "Features for dungeons"
   - **Zero Ping AOTV**: Zero ping AOTV (client-side only).
   - **Cancel TP Packet**: Changes Zero Ping Etherwarp/AOTV method.
 
-    <Danger>
-      **Potentially unsafe feature that can be detected by the new anti-cheat update**
-    </Danger>
+     (Currently disabled due to new AC update)
   - **Keep Motion**: Keeps motion after Etherwarp/AOTV.
   - **Etherwarp Sound**: Plays custom sound after Etherwarp.
   - **Fast etherwarp**: Spams Etherwarp.
@@ -94,7 +92,7 @@ description: "Features for dungeons"
   - **Terminal Aura**: Automatically opens terminals while in range.
   - **Terminal Aura Only on Ground**: Automatically opens terminals only when on the ground.
   - **Anti TNT Velocity**: Removes TNT knockback.
-  - **Insta Middle**: Instantly teleports you to Necron platform.
+  - **Insta Middle**: Instantly teleports you to Necron platform. (Currently disabled due to new AC update)
   - **Debuff Helper**: Helps you debuff dragons.
   - **Auto Ice Spray**: Automatically ice sprays boss.
   - **Auto Soul Whip**: Automatically uses Soul Whip on boss.
@@ -158,8 +156,8 @@ description: "Features for dungeons"
   - **Secret Aura Mode**:⤵
 
     <Expandable title="Content">
-      - **Aura:** automatically collects secrets within range
-      - **Stonkless:** automatically collects secrets through walls when looking at them
+      - **Aura:** automatically collects secrets within range (Currently disabled due to new AC update)
+      - **Stonkless:** automatically collects secrets through walls when looking at them (Currently disabled due to new AC update)
       - **TriggerBot:** automatically collects secrets when looking at them
     </Expandable>
   - **Secret Aura Sounds:** plays a sound when a secret is collected with Secret Aura
@@ -232,12 +230,12 @@ description: "Features for dungeons"
       - **Puzzles and Trap**
       - **On**
     </Expandable>
-  - **Room Names Size**: scale for room names
-  - **Text Shadow**: text shadow
-  - **Darken Undiscovered Rooms:** darkens undiscovered rooms
-  - **Darken Rooms Percentage:** sets how much undiscovered rooms are darkened
-  - **Show Player Names**: renders players names on the map
-  - **Show Dungeon Info Under the Map**: shows dungeon info under the map
+  - **Room Names Size**: Scale for room names
+  - **Text Shadow**: Text shadow
+  - **Darken Undiscovered Rooms:** Darkens undiscovered rooms
+  - **Darken Rooms Percentage:** Sets how much undiscovered rooms are darkened
+  - **Show Player Names**: Renders players names on the map
+  - **Show Dungeon Info Under the Map**: Shows dungeon info under the map
 </Accordion>
 
 <Accordion title="Score Calculation" icon="sparkles">
@@ -252,44 +250,9 @@ description: "Features for dungeons"
 </Accordion>
 
 <Accordion title="Brush" icon="block-brick">
-  - **Enable Brush**: allows you to place blocks in dungeons
-  - **Brush Outside of Dungeons**: allows you to place blocks outside of dungeons
+  - **Enable Brush**: Allows you to place blocks in dungeons. (After the new AC update you cant collide with ghost blocks anymore)
+  - **Brush Outside of Dungeons**: Allows you to place blocks outside of dungeons.
   - **Brush Blocks Update Delay**: Delay in ticks before updating brush blocks.
-</Accordion>
-
-<Accordion title="Shortbow Aura" icon="bow-arrow">
-  - **Shortbow Aura:** toggles Shortbow Aura
-  - **Rotation Speed:** adjusts rotation speed for Shortbow Aura
-  - **FOV:** sets the FOV for Shortbow Aura
-  - **Height Difference:** sets the maximum height difference for Shortbow Aura
-  - **Shortbow Slot:** selects the slot with a Shortbow
-  - **One Hit Per Target:** hits each target only once
-</Accordion>
-
-<Accordion title="Clip" icon="sparkles">
-  - **Bar Phase**: allows you to walk through iron bars, and glass panes
-  - **HClip Keybind**: toggles HClip with a keybind
-  - **HClip Keybind Mode**: ⤵
-
-    <Expandable title="Modes">
-      - **Once**
-      - **Hold**
-      - **Toggle**
-    </Expandable>
-  - **HClip Type**: ⤵
-
-    <Expandable title="Type">
-      - **Move**
-      - **Velocity**
-    </Expandable>
-  - **HClip Distance**: change distance of hclip
-  - **Hclip Auto Pearl**: uses ender pearl before HClip
-  - **VClip Keybind**: toggles VClip with a keybind
-  - **VClip Distance**: changes VClip distance
-  - **VClip Auto Pearl**: uses ender pearl before VClip
-  - **Auto VClip in Lava Keybind**: lava clip
-  - **Wall Clip keybind**: clips through wall
-  - **Wall Clip Auto Core**: walk through core (f7)
 </Accordion>
 
 <Accordion title="Blink" icon="sparkles">
